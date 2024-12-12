@@ -1,0 +1,112 @@
+
+
+
+
+
+
+
+
+.target{
+    text-decoration: none;
+    position: relative;
+   }
+   .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100vh;
+   }
+   .grid-img{
+    border: 10px solid white;
+   }
+   .one{
+    background-image: url(./ba-1.jpg); 
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    border-radius: 30px;
+  
+   }
+   .two{
+     background-image: url(./ba-2.jpg); 
+    background-size: cover;
+    background-position: center;
+    grid-row: span 3;
+    grid-column: span 2;
+    border-radius: 30px;
+
+   }
+   .four{
+     background-image: url(./ba-3.jpg); 
+    background-size: cover;
+    background-position: center;
+    grid-row: span 4;
+    border-radius: 30px;
+
+   }
+
+   .five{
+     background-image: url(./ba-4.jpg); 
+    background-size: cover;
+    background-position: center;
+    grid-row: span 3;
+    grid-column: span 2;
+    border-radius: 30px;
+   
+   } 
+   .btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+    top: 441px;
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+.box1{
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 260px;
+  margin-top: 10px;
+}
+.box1 .btn{
+  margin-right: 20px;
+}
+.box2 {
+  border-radius: 10px;
+  height: 500px;
+  margin-left: 40%;
+  width: 30%;
+  margin-top: -63px;
+}
+.box2 h5{
+  padding-top: 20px;
+  color: white;
+ text-align: center;
+ 
+}
+.box2 h4{
+  padding-top: 50px;
+  color: white;
+ text-align: center;
+ 
+}
+.box2 img{
+  padding-left: 190px;
+ text-align: center;
+ padding-top: 50px;
+}
+.box2 h6{
+  padding-top: 50px;
+  color: white;
+ text-align: center;
+ font-size: 20px;
+ 
+}
+
+
+.inpu{
+  width: 426px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 17px;
+  padding: 10px;
+}
